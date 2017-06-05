@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lupawktu.possqlite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lupawktu.possqlite.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterActivity"
+            android:label="Create New Account"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CreateNewStore"
+            android:label="Create New Store"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DisplayStore"
+            android:label="My Store"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainMenu"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProductCategory"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddProductActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

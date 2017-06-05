@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Point Of Sale</string>
+
+    <!--db name-->
+    <string name="product">product</string>
+    <string name="product_detail">product_detail</string>
+    <string name="category">category_product</string>
+    <string name="category_detail">category_product_detail</string>
+    <string name="store">store</string>
+    <string name="store_detail">store_detail</string>
+    <string name="user">user</string>
+    <string name="order">order</string>
+    <string name="order_detail">order_detail</string>
+</resources>

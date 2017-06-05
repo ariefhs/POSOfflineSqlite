@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:textSize="13sp"
+                android:hint="Store Name"
+                android:id="@+id/storename"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:padding="5dp"
+                android:background="@color/border"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:textSize="13sp"
+                android:hint="Store Address"
+                android:lines="5"
+                android:maxLines="7"
+                android:gravity="top|left"
+                android:id="@+id/address"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:padding="5dp"
+                android:background="@color/border"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:textSize="13sp"
+                android:hint="Store Descriptions"
+                android:lines="5"
+                android:maxLines="7"
+                android:gravity="top|left"
+                android:id="@+id/description"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:padding="5dp"
+                android:background="@color/border"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Create Store"
+                android:id="@+id/create"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
